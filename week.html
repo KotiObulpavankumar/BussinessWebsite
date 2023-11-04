@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/9da8518f49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bus.css">
+    <script src="bus.js"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <nav class="navbar navbar-expand-lg navbar-light nav_bg fixed-top">
+            <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698905699/WhatsApp_Image_2023-11-02_at_11.41.21_AM_iwxfzo.jpg" class="img" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#Services">Services</a>
+                    <a class="nav-link" href="#About">About Us</a>
+                    <a class="nav-link" href="#Contact">Contact Us</a>
+
+                </div>
+            </div>
+        </nav>
+        <div class="home_bg text-center d-flex flex-column justify-content-center" id="Home">
+            <h1 class="home_heading">Ghouse cosmetics</h1>
+            <p class="home_para">Welcome to Luxury</p>
+            <div>
+                <button class="btn btn-secondary"><a href="#Services" class="text-black">visit our collection</a></button>
+            </div>
+        </div>
+        <div id="Services" class="products_bg">
+            <h4 class="text-warning m-3">Products</h4>
+            <div class="row m-2 d-flex justify-content-center">
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionSofas')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698906587/WhatsApp_Image_2023-11-02_at_11.59.20_AM_olg2qh.jpg" class="products_card_img text-center">
+                    <h5>face washes</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionBeds')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698906443/WhatsApp_Image_2023-11-02_at_11.56.45_AM_chxxjl.jpg" class="products_card_img">
+                    <h5>moisturizers</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionperfumes')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698906069/WhatsApp_Image_2023-11-02_at_11.50.09_AM_hmcode.jpg" class="products_card_img">
+                    <h5>perfumes</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionSampoos')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698906706/WhatsApp_Image_2023-11-02_at_12.01.15_PM_p7rjyd.jpg" class="products_card_img">
+                    <h5>shampoos</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionMakeUpKit')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698906881/WhatsApp_Image_2023-11-02_at_12.03.45_PM_vofr4p.jpg" class="products_card_img">
+                    <h5>make up kits</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionLipsticks')">
+                    <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698907397/WhatsApp_Image_2023-11-02_at_12.08.13_PM_1_rngsx3.jpg" class="products_card_img">
+                    <h5>lipsticks</h5>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div id="About" class="About_bg">
+            <h4 class="m-3 text-warning">About</h4>
+            <div class="About_crad text-center">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698905699/WhatsApp_Image_2023-11-02_at_11.41.21_AM_iwxfzo.jpg" class="l_img" />
+                <div>
+                    <h1 class="home_heading">Ghouse cosmetics</h1>
+                    <p class="text-secondary">Ghouse osmetics beautifying agents advancement forms use logical research to guarantee that our items contain top-notch fixings that advance and sustain the skin. The outcome is a delightfully useful item that is securely perfect for all intents and purposes each skin type.</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="bg" id="Contact">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="text-center pl-md-4 pt-5 col-12 col-md-4 justify-content-md-start text-md-left">
+                        <div>
+                            <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698905699/WhatsApp_Image_2023-11-02_at_11.41.21_AM_iwxfzo.jpg" class="img" />
+                        </div>
+                        <div class="d-flex flex-row justify-content-center ">
+                            <div class="icon-container">
+                                <i class="fa-brands fa-google icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-twitter icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </div>
+                        </div>
+                        <p class="paragraph">37, vidhya Nagar,Tirupathi,India.</p>
+                    </div>
+                    <div class="d-flex flex-row pt-5 ml-5">
+                        <div>
+                            <h1 class="heading ml-2">Contact Us</h1>
+                            <div class="d-flex flex-row ml-2">
+                                <i class="fa-solid fa-envelope icon "></i>
+                                <p class="paragraph ml-3">Gc@gmail.com</p>
+                            </div>
+                            <div class="d-flex flex-row ml-2">
+                                <i class="fa-solid fa-phone icon"></i>
+                                <p class="paragraph ml-3">1234506789</p>
+                            </div>
+                            <div class="d-flex flex-row ml-2">
+                                <i class="fa-brands fa-skype icon"></i>
+                                <p class="paragraph ml-3">Pavan</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="heading ml-2">Let Us Help You</h1>
+                            <p class="paragraph ml-3">100% Purchase Protection <br />Your Account <br />Return Center <br />Help</p>
+                        </div>
+    
+                    </div>
+                    <hr color="#5a7184" width="300px">
+    
+                </div>
+            </div>
+    
+        </div>
+    
+        
+    </div>
+
+    <div id="sectionSofas" class="text-center products_bg">
+        <h1 class="home_heading">Facewashes</h1>
+        <div class="row m-2 d-flex justify-content-center">
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionmamaearth_vitamnC_Face_wash')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698983727/f1_grjecn.jpg" class="products_card_img text-center">
+                <h5>mamaearth vitamnC Face wash</h5>                    
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionGarnier_skin_naturals')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985283/WhatsApp_Image_2023-11-03_at_9.49.46_AM_djx0ym.jpg" class="products_card_img">
+                <h5>Garnier skin naturals</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionHimalaya_herbal_face_wash')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985660/WhatsApp_Image_2023-11-03_at_9.56.20_AM_ok1ffg.jpg" class="products_card_img">
+                <h5>Himalaya herbal face wash</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectiongreen_tea_face_wash')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985922/WhatsApp_Image_2023-11-03_at_10.01.26_AM_dckpua.jpg" class="products_card_img">
+                <h5>plam green tea face wash</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionSimple_refreshing_face_wash')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698986249/WhatsApp_Image_2023-11-03_at_10.06.38_AM_hn3yvy.jpg" class="products_card_img">
+                <h5>Simple refreshing face wash</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionMinimalist_Salicyclic_Face_wash')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698986583/WhatsApp_Image_2023-11-03_at_10.11.18_AM_apwtjb.jpg" class="products_card_img">
+                <h5>Minimalist Salicyclic Face wash</h5>
+            </div>
+
+
+        </div>
+
+
+        <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+
+    </div>
+
+    <div id="sectionmamaearth_vitamnC_Face_wash">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698983727/f1_grjecn.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h5 class="Product_heading">mamaearth vitamnC Face wash</h5> 
+                    <p class="Product_para">Price-250/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('mamaearth vitamnC Face wash', 250)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="sectionGarnier_skin_naturals">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985283/WhatsApp_Image_2023-11-03_at_9.49.46_AM_djx0ym.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Garnier skin naturals</h4>
+                    <p class="Product_para">Price- RS 350/-</p>
+                </div>
+
+            </div>
+            <button onclick="addItemToCart('Garnier skin naturals', 350)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="sectionHimalaya_herbal_face_wash">
+
+        <div class="sofa_bg ">
+            <div>
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985660/WhatsApp_Image_2023-11-03_at_9.56.20_AM_ok1ffg.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Himalaya herbal face wash</h4>
+                    <p class="Product_para">Price- RS 450/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('Himalaya herbal face wash', 450)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="sectiongreen_tea_face_wash">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698985922/WhatsApp_Image_2023-11-03_at_10.01.26_AM_dckpua.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">plam green tea face wash</h4>
+                    <p class="Product_para">Price- RS 650/-</p>
+                </div> 
+        
+
+            </div>
+            <button onclick="addItemToCart('plam green tea face wash', 650)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="sectionSimple_refreshing_face_wash">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698986249/WhatsApp_Image_2023-11-03_at_10.06.38_AM_hn3yvy.jpg" class="d-block w-100 sofa_img">
+            </div>
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Simple refreshing face wash</h4>
+                    <p class="Product_para">Price-RS 550/-</p>
+                </div>
+               
+                
+
+            </div>
+            <button onclick="addItemToCart('Simple refreshing face wash', 550)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="sectionMinimalist_Salicyclic_Face_wash">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698986583/WhatsApp_Image_2023-11-03_at_10.11.18_AM_apwtjb.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Minimalist Salicyclic Face wash</h4>
+                    <p class="Product_para">Price-RS 750</p>
+                </div>
+              
+
+            </div>
+            <button onclick="addItemToCart('Minimalist Salicyclic Face wash', 750)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="sectionBeds" class="text-center products_bg">
+        <h1 class="home_heading">Moisturizers</h1>
+        <div class="row m-2 d-flex justify-content-center">
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionNivea_soft_light_moisturizers')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698987352/WhatsApp_Image_2023-11-03_at_10.24.03_AM_bgqlxh.jpg" class="products_card_img text-center">
+                <h5>Nivea soft light moisturizers</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionPonds_Super_light_gel_moisturizer')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698987775/WhatsApp_Image_2023-11-03_at_10.31.00_AM_b8zg4l.jpg" class="products_card_img">
+                <h5>Pond's Super light gel moisturizer</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionNeutriderm_moisturising_lotion')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988138/WhatsApp_Image_2023-11-03_at_10.36.56_AM_i98v1v.jpg" class="products_card_img">
+                <h5>Neutriderm moisturising lotion</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionNeutrogena_Hydro_Boost_moisturizer')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988392/WhatsApp_Image_2023-11-03_at_10.42.03_AM_uljymh.jpg" class="products_card_img">
+                <h5>Neutrogena Hydro Boost moisturizer</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionOlayregenerist_moisturizer')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988651/WhatsApp_Image_2023-11-03_at_10.46.47_AM_p2ite2.jpg" class="products_card_img">
+                <h5>Olayregenerist moisturizer</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionLacto_calamine_moisturizer')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988943/WhatsApp_Image_2023-11-03_at_10.51.32_AM_tqpgc7.jpg" class="products_card_img">
+                <h5>Lacto calamine moisturizer</h5>
+            </div>
+            
+
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+    </div>
+    <div id="sectionNivea_soft_light_moisturizers">
+
+        <div class="sofa_bg ">
+          <div class="">
+                        <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698987352/WhatsApp_Image_2023-11-03_at_10.24.03_AM_bgqlxh.jpg" class="d-block w-100 sofa_img">
+                    </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Nivea soft light moisturizers</h4>
+                    <p class="Product_para">Price-RS 800/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('Nivea soft light moisturizers', 800)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionPonds_Super_light_gel_moisturizer">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698987775/WhatsApp_Image_2023-11-03_at_10.31.00_AM_b8zg4l.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Pond's Super light gel moisturizer</h4>
+                    <p class="Product_para">Price-RS 100/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('Ponds Super light gel moisturizer', 100)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionNeutriderm_moisturising_lotion">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988138/WhatsApp_Image_2023-11-03_at_10.36.56_AM_i98v1v.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Neutriderm moisturising lotion</h4>
+                    <p class="Product_para">India</p>
+                </div>
+                
+                
+
+            </div>
+            <button onclick="addItemToCart('Neutriderm moisturising lotion', 70000)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionNeutrogena_Hydro_Boost_moisturizer">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988392/WhatsApp_Image_2023-11-03_at_10.42.03_AM_uljymh.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Neutrogena Hydro Boost moisturizer</h4>
+                    <p class="Product_para">Price-RS 1999</p>
+                </div>
+                
+               
+            </div>
+            <button onclick="addItemToCart('Neutrogena Hydro Boost moisturizer', 1999)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionOlayregenerist_moisturizer">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988651/WhatsApp_Image_2023-11-03_at_10.46.47_AM_p2ite2.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Olayregenerist moisturizer</h4>
+                    <p class="Product_para">Price-RS 299</p>
+                </div>
+                
+                
+
+            </div>
+            <button onclick="addItemToCart('Olayregenerist moisturizer', 299)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionLacto_calamine_moisturizer">
+        <div class="sofa_bg ">
+            <div>
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698988943/WhatsApp_Image_2023-11-03_at_10.51.32_AM_tqpgc7.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Lacto calamine moisturizer</h4>
+                    <p class="Product_para">Price-RS 499/-</p>
+                </div>
+              
+
+            </div>
+            <button onclick="addItemToCart('Lacto calamine moisturizer', 499)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="sectionSampoos" class="text-center products_bg">
+        <h1 class="home_heading">Shampoos</h1>
+
+        <div class="row m-2 d-flex justify-content-center">
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionDove_intense_repair_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698991618/WhatsApp_Image_2023-11-03_at_11.35.55_AM_uirm3u.jpg" class="products_card_img text-center">
+                <h5>Dove intense repair shampoo</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionTresemme_keratin_smooth_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698991901/WhatsApp_Image_2023-11-03_at_11.37.20_AM_jaavos.jpg" class="products_card_img">
+                <h5>Tresemme keratin smooth shampoo</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionloreal_repair_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698992059/WhatsApp_Image_2023-11-03_at_11.38.13_AM_ncvw5n.jpg" class="products_card_img">
+                <h5>loreal repair shampoo</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionvatika_hair_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699022922/WhatsApp_Image_2023-11-03_at_11.39.25_AM_sezmxc.jpg" class="products_card_img">
+                <h5>vatika hair shampoo</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionhead&shoulders_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699023095/WhatsApp_Image_2023-11-03_at_11.41.18_AM_njaial.jpg" class="products_card_img">
+                <h5>head&shoulders shampoo</h5>
+            </div>
+            <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionmama_earth_onion_shampoo')">
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699023229/WhatsApp_Image_2023-11-03_at_11.42.15_AM_x8p0lt.jpg" class="products_card_img">
+                <h5>mama earth onion shampoo</h5>
+            </div>
+
+
+        </div>
+
+        <button class="btn btn-info" onclick="display('sectionHome')">Back</button>
+
+
+    </div>
+
+
+    <div id="sectionDove_intense_repair_shampoo">
+
+        <div class="sofa_bg ">
+          <div class="">
+                        <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698991618/WhatsApp_Image_2023-11-03_at_11.35.55_AM_uirm3u.jpg" class="d-block w-100 sofa_img">
+                    </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Dove intense repair shampoo</h4>
+                    <p class="Product_para">Price-RS 800/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('Dove intense repair shampoo', 800)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionTresemme_keratin_smooth_shampoo">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698991901/WhatsApp_Image_2023-11-03_at_11.37.20_AM_jaavos.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">Tresemme keratin smooth shampoo</h4>
+                    <p class="Product_para">Price-RS 1000/-</p>
+                </div>
+                
+
+            </div>
+            <button onclick="addItemToCart('Tresemme keratin smooth shampoo', 1000)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionloreal_repair_shampoo">
+        <div class="sofa_bg ">
+            <div>
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1698992059/WhatsApp_Image_2023-11-03_at_11.38.13_AM_ncvw5n.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">loreal repair shampoo</h4>
+                    <p class="Product_para">Price-RS 399</p>
+                </div>
+                
+                
+
+            </div>
+            <button onclick="addItemToCart('loreal repair shampoo', 399)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionvatika_hair_shampoo">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699022922/WhatsApp_Image_2023-11-03_at_11.39.25_AM_sezmxc.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">vatika hair shampoo</h4>
+                    <p class="Product_para">Price-RS 299</p>
+                </div>
+                
+               
+            </div>
+            <button onclick="addItemToCart('vatika hair shampoo', 299)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionhead&shoulders_shampoo">
+        <div class="sofa_bg ">
+            <div >
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699023095/WhatsApp_Image_2023-11-03_at_11.41.18_AM_njaial.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">head&shoulders shampoo</h4>
+                    <p class="Product_para">Price-RS 599</p>
+                </div>
+                
+                
+
+            </div>
+            <button onclick="addItemToCart('head&shoulders shampoo', 599)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionmama_earth_onion_shampoo">
+        <div class="sofa_bg ">
+            <div>
+                <img src="https://res.cloudinary.com/diz8laptj/image/upload/v1699023229/WhatsApp_Image_2023-11-03_at_11.42.15_AM_x8p0lt.jpg" class="d-block w-100 sofa_img">
+            </div>
+
+            <h3>Product Details</h3>
+            <div class="Product_details row d-flex flex-row justify-content-center">
+                <div class="m-3 text-center">
+                    <h4 class="Product_heading">mama earth onion shampoo</h4>
+                    <p class="Product_para">Price-RS 699</p>
+                </div>
+              
+
+            </div>
+            <button onclick="addItemToCart('mama earth onion shampoo', 699)" class="btn btn-info m-1">Add to Cart</button>
+            <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+            <div class="text-right">
+                <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionperfumes" class="text-center products_bg">
+            <h1 class="home_heading">Perfumes</h1>
+    
+            <div class="row m-2 d-flex justify-content-center">
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionplum_body_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/51KQf0ojCOL._SX522_.jpg" class="products_card_img text-center">
+                    <h5>plum body perfume</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionmancompanystore_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/61n0OKeCF+L._SX522_.jpg" class="products_card_img">
+                    <h5>mancompanystore perfume</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionyardleylondon_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/61wWmHvDMfL._SX522_.jpg" class="products_card_img">
+                    <h5>yardleylondon perfume</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionvillan_oud_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/31zVzOYjQJL._SX300_SY300_QL70_FMwebp_.jpg" class="products_card_img">
+                    <h5>villan oud perfume</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionBeardo_godfather_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/41-16VMERjL._SX300_SY300_QL70_FMwebp_.jpg" class="products_card_img">
+                    <h5>Beardo godfather perfume</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionustraa_tattoo_perfume')">
+                    <img src="https://m.media-amazon.com/images/I/51AFs-wCQHL._SX522_.jpg" class="products_card_img">
+                    <h5>ustraa tattoo perfume</h5>
+                </div>
+    
+    
+            </div>
+    
+            <button class="btn btn-info" onclick="display('sectionHome')">Back</button>
+    
+    
+        </div>
+
+        <div id="sectionplum_body_perfume">
+
+            <div class="sofa_bg ">
+              <div class="">
+                            <img src="https://m.media-amazon.com/images/I/51KQf0ojCOL._SX522_.jpg" class="d-block w-100 sofa_img">
+                        </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">plum body perfume</h4>
+                        <p class="Product_para">Price-RS 800/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('plum body perfume', 800)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionmancompanystore_perfume">
+            <div class="sofa_bg ">
+                <div >
+                    <img src="https://m.media-amazon.com/images/I/61n0OKeCF+L._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">mancompanystore perfume</h4>
+                        <p class="Product_para">Price-RS 1000/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('mancompanystore perfume', 1000)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionyardleylondon_perfume">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://m.media-amazon.com/images/I/61wWmHvDMfL._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        
+                        <h4 class="Product_heading">yardleylondon perfume</h4>
+                        <p class="Product_para">Price-RS 999</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('yardleylondon perfume', 999)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionvillan_oud_perfume">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://m.media-amazon.com/images/I/31zVzOYjQJL._SX300_SY300_QL70_FMwebp_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">villan oud perfume</h4>
+                        <p class="Product_para">Price-RS 699</p>
+                    </div>
+                    
+                   
+                </div>
+                <button onclick="addItemToCart('villan oud perfume', 699)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionBeardo_godfather_perfume">
+            <div class="sofa_bg d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <img src="https://m.media-amazon.com/images/I/41-16VMERjL._SX300_SY300_QL70_FMwebp_.jpg" class="products_card_img" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Beardo godfather perfume</h4>
+                        <p class="Product_para">Price-RS 599</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('Beardo godfather perfume', 599)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionustraa_tattoo_perfume">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://m.media-amazon.com/images/I/51AFs-wCQHL._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">ustraa tattoo perfume</h4>
+                        <p class="Product_para">Price-RS 499/-</p>
+                    </div>
+                  
+    
+                </div>
+                <button onclick="addItemToCart('ustraa tattoo perfume', 499)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+
+        <div id="sectionMakeUpKit" class="text-center products_bg">
+            <h1 class="home_heading">Make Up Kit</h1>
+    
+            <div class="row m-2 d-flex justify-content-center">
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionSugar_cosmetics_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/61MuSiCba8L._SX522_.jpg" class="products_card_img text-center">
+                    <h5>Sugar cosmetics makeupkit</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionClassy_huda_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/71Yw-8mZ4mL._SX522_.jpg" class="products_card_img">
+                    <h5>Classy huda makeupkit</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionAP_home_decor_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/813i5G-cVxS._SX522_.jpg" class="products_card_img">
+                    <h5>AP home decor makeupkit</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionLaperla_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/51YoXnKvX1L._SX300_SY300_QL70_FMwebp_.jpg" class="products_card_img">
+                    <h5>Laperla makeupkit</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectioncolour_Diva_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/61hCtKK5HGL._SX522_.jpg" class="products_card_img">
+                    <h5>colour Diva makeupkit</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionjust_hubs_makeupkit')">
+                    <img src="https://m.media-amazon.com/images/I/61zetIRiIdL._SX522_.jpg" class="products_card_img">
+                    <h5>just hubs makeupkit</h5>
+                </div>
+    
+    
+            </div>
+    
+            <button class="btn btn-info" onclick="display('sectionHome')">Back</button>
+    
+    
+        </div>
+
+        <div id="sectionSugar_cosmetics_makeupkit">
+
+            <div class="sofa_bg ">
+              <div class="">
+                            <img src="https://m.media-amazon.com/images/I/61MuSiCba8L._SX522_.jpg" class="d-block w-100 sofa_img">
+                        </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Sugar cosmetics makeupkit</h4>
+                        <p class="Product_para">Price-RS 800/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('Sugar cosmetics makeupkit', 800)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionClassy_huda_makeupkit">
+            <div class="sofa_bg ">
+                <div >
+                    <img src="https://m.media-amazon.com/images/I/71Yw-8mZ4mL._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Classy huda makeupkit</h4>
+                        <p class="Product_para">Price-RS 1000/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('Classy huda makeupkit', 1000)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionAP_home_decor_makeupkit">
+            <div class="sofa_bg ">
+                <div class="carousel-item active">
+                    <img src="https://m.media-amazon.com/images/I/813i5G-cVxS._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">AP home decor makeupkit</h4>
+                        <p class="Product_para">Price-RS 2500</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('AP home decor makeupkit', 2500)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionLaperla_makeupkit">
+            <div class="sofa_bg ">
+                <div class="carousel-item active">
+                    <img src="https://m.media-amazon.com/images/I/51YoXnKvX1L._SX300_SY300_QL70_FMwebp_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Laperla makeupkit</h4>
+                        <p class="Product_para">Price-RS 199</p>
+                    </div>
+                    
+                   
+                </div>
+                <button onclick="addItemToCart('Laperla makeupkit', 199)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectioncolour_Diva_makeupkit">
+            <div class="sofa_bg d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <img src="https://m.media-amazon.com/images/I/61hCtKK5HGL._SX522_.jpg" class="products_card_img" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">colour Diva makeupkit</h4>
+                        
+                        <p class="Product_para">Price-RS 299/-</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('colour Diva makeupkit', 299)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionjust_hubs_makeupkit">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://m.media-amazon.com/images/I/61zetIRiIdL._SX522_.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">just hubs makeupkit</h4>
+                        <p class="Product_para">Price-RS 399/-</p>
+                    </div>
+                  
+    
+                </div>
+                <button onclick="addItemToCart('just hubs makeupkit', 399)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+        
+        <div id="sectionLipsticks" class="text-center products_bg">
+            <h1 class="home_heading">lipsticks</h1>
+    
+            <div class="row m-2 d-flex justify-content-center">
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionmaybeline_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/337901/maybelline-new-york-color-sensational-creamy-matte-siren-in-scarlet-4-2-g-47_1_display_1697606997_d67a17b4.jpg" class="products_card_img text-center">
+                    <h5>maybeline lipstick</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionLplum&twist_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/364442/plum-twist-and-go-matte-lipstick-airbrushed-finish-long-lasting-red-zone-137-chilly-red_1_display_1694519301_fcee28ae.jpg" class="products_card_img">
+                    <h5>plum&twisk lipstick</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5  col-lg-3 text-center shadow" onclick="display('sectionmaybeline_matte_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/253504/maybelline-new-york-super-stay-matte-ink-liquid-lipstick-120-artist-5-g_8_display_1568192454_6fea453a.jpg" class="products_card_img">
+                    <h5>maybeline matte ink lipstick</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionNy_bae_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/342124/ny-bae-5-in-1-lipstick-happy-hues-01-6-5g_2_display_1676006077_03789f5f.jpg" class="products_card_img">
+                    <h5>Ny bae 5in1 lipstick</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionBlue_heaven_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/264203/blue-heaven-hyperstay-matte-mystic-maroon-05-36-20_1_display_1667825088_7e68088e.jpg" class="products_card_img">
+                    <h5>Blue heaven lipstick</h5>
+                </div>
+                <div class="products_card col-12 col-sm-5 col-lg-3 text-center shadow" onclick="display('sectionpurple_ultra_matte_lipstick')">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/274307/purplle-mini-liquid-lipstick-pink-my-first-selfie-6-4-8-ml-21_8_display_1669641130_7e65bd9a.jpg" class="products_card_img">
+                    <h5>purple ultra matte ink lipstick</h5>
+                </div>
+    
+    
+            </div>
+    
+            <button class="btn btn-info" onclick="display('sectionHome')">Back</button>
+    
+    
+        </div>
+
+      
+        <div id="sectionmaybeline_lipstick">
+
+            <div class="sofa_bg">
+              <div class="">
+                            <img src="https://m.media-amazon.com/images/I/61MuSiCba8L._SX522_.jpg" class="d-block w-100 sofa_img">
+                        </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">maybeline lipstick</h4>
+                        <p class="Product_para">Price-RS 800/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('maybeline lipstick', 800)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionLplum&twist_lipstick">
+            <div class="sofa_bg ">
+                <div >
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/364442/plum-twist-and-go-matte-lipstick-airbrushed-finish-long-lasting-red-zone-137-chilly-red_1_display_1694519301_fcee28ae.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">plum&twisk lipstick</h4>
+                        <p class="Product_para">Price-RS 199/-</p>
+                    </div>
+                    
+    
+                </div>
+                <button onclick="addItemToCart('plum&twisk lipstick', 199)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionmaybeline_matte_lipstick">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/253504/maybelline-new-york-super-stay-matte-ink-liquid-lipstick-120-artist-5-g_8_display_1568192454_6fea453a.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">maybeline matte ink lipstick</h4>
+                        <p class="Product_para">Price-RS 250/-</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('maybeline matte ink lipstick', 250)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionNy_bae_lipstick">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/342124/ny-bae-5-in-1-lipstick-happy-hues-01-6-5g_2_display_1676006077_03789f5f.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Ny bae 5in1 lipstick</h4>
+                        <p class="Product_para">Price-RS 499/-</p>
+                    </div>
+                    
+                   
+                </div>
+                <button onclick="addItemToCart('Ny bae 5in1 lipstick', 499)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionBlue_heaven_lipstick">
+            <div class="sofa_bg d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/264203/blue-heaven-hyperstay-matte-mystic-maroon-05-36-20_1_display_1667825088_7e68088e.jpg" class="products_card_img" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">Blue heaven lipstick</h4>
+                        <p class="Product_para">Price-RS 299/-</p>
+                    </div>
+                    
+                    
+    
+                </div>
+                <button onclick="addItemToCart('Blue heaven lipstick', 299)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="sectionpurple_ultra_matte_lipstick">
+            <div class="sofa_bg ">
+                <div>
+                    <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/274307/purplle-mini-liquid-lipstick-pink-my-first-selfie-6-4-8-ml-21_8_display_1669641130_7e65bd9a.jpg" class="d-block w-100 sofa_img">
+                </div>
+    
+                <h3>Product Details</h3>
+                <div class="Product_details row d-flex flex-row justify-content-center">
+                    <div class="m-3 text-center">
+                        <h4 class="Product_heading">purple ultra matte ink lipstick</h4>
+                        <p class="Product_para">Price-RS 399/-</p>
+                    </div>
+                  
+    
+                </div>
+                <button onclick="addItemToCart('purple ultra matte ink lipstick', 399)" class="btn btn-info m-1">Add to Cart</button>
+                <button class="btn btn-info m-1" onclick="display('sectioncart')">View Cart</button>
+                <div class="text-right">
+                    <button class="btn btn-secondary" onclick="display('sectionSofas')">Back</button>
+                </div>
+            </div>
+    
+        </div>
+    <div id="sectioncart" class="products_bg pt-4">
+        <h2 class="home_heading text-center">Your Cart</h2>
+        <ul id="cart-items" class="text-center">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <h6 class="text-right">Total: Rs <span id="cart-total">0</span></h6>
+        <div class="text-center">
+            <button class="btn btn-secondary m-1" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>

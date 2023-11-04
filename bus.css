@@ -1,0 +1,156 @@
+.home_bg {
+    background-image: url("https://res.cloudinary.com/diz8laptj/image/upload/v1698907887/WhatsApp_Image_2023-11-02_at_12.19.50_PM_t1fmxr.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.img {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.nav_bg {
+    background-color: rgb(6, 4, 124);
+}
+
+.home_heading {
+    color: rgb(251, 6, 6);
+    text-decoration: underline rgb(54, 5, 254);
+    font-family: sans;
+}
+
+.home_para {
+    color: rgb(251, 5, 83);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.products_card {
+    background-color: rgb(236, 239, 244);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.products_card_img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.products_bg {
+    background-color: #13c779;
+}
+
+.About_bg {
+    background-color: #0eefc2;
+    padding: 10px
+}
+
+.l_img {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.About_crad {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.follow-us-icon-container {
+    background-color: #eec809;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 8px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 17px;
+}
+
+
+.Items {
+    list-style-type: none;
+
+}
+.bg {
+    background-color: #5dc7b2;
+}
+.icon {
+    color: #5d99c7;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.footer-section {
+    background-color: #c7a05d;
+}
+
+.footer-section-mail-id {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.sofa_bg {
+    background-color: lightblue;
+    padding: 5px;
+    height: 100vh;
+}
+
+.crad {
+    background-color: white;
+    padding: 10px;
+}
+
+.sofa_img {
+    border-radius: 10px;
+    height: 750px;
+}
+
+.Product_details {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgrey;
+}
+
+.Product_heading {
+    color: rgb(128, 128, 128);
+    text-decoration: underline;
+
+}
+
+.Product_para {
+    font-weight: bold;
+}
